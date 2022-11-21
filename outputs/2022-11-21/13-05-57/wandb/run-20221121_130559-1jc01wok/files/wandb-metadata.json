@@ -1,0 +1,47 @@
+{
+    "os": "Linux-5.15.0-1019-aws-x86_64-with-glibc2.31",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-11-21T13:05:59.973483",
+    "startedAt": "2022-11-21T13:05:59.643933",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/rustem/mlops/MLOPS/MLOps_test_source/MLOps_test_v1/train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/shaimarus/mlops_test.git",
+        "commit": "5e9dbc32cde6a0b1a21fb62a97382f70616a2f2c"
+    },
+    "email": "shaimarus@gmail.com",
+    "root": "/home/rustem/mlops/MLOPS/MLOps_test_source/MLOps_test_v1",
+    "host": "ip-172-40-25-123",
+    "username": "rustem",
+    "executable": "/home/rustem/mlops/MLOPS/MLOps_test_source/mlops_test/bin/python",
+    "cpu_count": 1,
+    "cpu_count_logical": 2,
+    "cpu_freq": {
+        "current": 2500.004,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2500.004,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2500.004,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "total": 96.73210144042969,
+        "used": 33.20183563232422
+    },
+    "memory": {
+        "total": 7.664058685302734
+    }
+}
