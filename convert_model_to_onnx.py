@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 @hydra.main(config_path="./configs", config_name="config")
 def convert_model(cfg):
     root_dir = hydra.utils.get_original_cwd()
-    model_path = f"{root_dir}/models/best-checkpoint-v2.ckpt"
+    model_path = f"{root_dir}/models/best-checkpoint-v3.ckpt"
     logger.info(f"Loading pre-trained model from: {model_path}")
     cola_model = ColaModel.load_from_checkpoint(model_path)
 
