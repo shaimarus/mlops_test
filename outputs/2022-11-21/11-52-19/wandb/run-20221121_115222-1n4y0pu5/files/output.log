@@ -1,0 +1,95 @@
+  | Name                   | Type                          | Params
+-------------------------------------------------------------------------
+0 | bert                   | BertForSequenceClassification | 4.4 M
+1 | train_accuracy_metric  | Accuracy                      | 0
+2 | val_accuracy_metric    | Accuracy                      | 0
+3 | f1_metric              | F1                            | 0
+4 | precision_macro_metric | Precision                     | 0
+5 | recall_macro_metric    | Recall                        | 0
+6 | precision_micro_metric | Precision                     | 0
+7 | recall_micro_metric    | Recall                        | 0
+-------------------------------------------------------------------------
+4.4 M     Trainable params
+0         Non-trainable params
+4.4 M     Total params
+17.545    Total estimated model params size (MB)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 0:  90%|▉| 136/151 [01:18<00:08,  1.74it/s, loss=0.609, v_num=0pu5, valid/loss_epoch=0.789, valid/acc=0.352, valid/pr
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1:  91%|▉| 138/151 [01:18<00:07,  1.76it/s, loss=0.625, v_num=0pu5, valid/loss_epoch=0.618, valid/acc=0.691, valid/pr
+
+
+Validating:  65%|███████████████████████████████████████████████▉                          | 11/17 [00:02<00:01,  4.39it/s]
